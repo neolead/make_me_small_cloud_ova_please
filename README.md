@@ -19,7 +19,12 @@ wget https://mirror.accum.se/images/cloud/trixie/latest/debian-13-generic-amd64.
 for ubuntu and debian
 running
 [password can be set when running or in the script]
+
+
+
 default user for debian - root:1234QQQQQQQ$
+
+
 default user for ubuntu - ubuntu,root:1234QQQQQQQ$
 
 
