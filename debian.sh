@@ -3,7 +3,7 @@ set -euo pipefail
 IFS=$'\n\t'
 
 # make_debian_ova.sh
-# Usage: ./make_debian_ova.sh input.qcow2 [root_password]
+# Usage: ./debian.sh input.qcow2 [root_password]
 # Output: <basename>_modified.ova
 
 INPUT_QCOW2="${1:-}"
