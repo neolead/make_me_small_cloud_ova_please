@@ -11,6 +11,8 @@ wget https://cloud-images.ubuntu.com/releases/22.04/release/ubuntu-20.10-server-
 
 
 wget https://cloud-images.ubuntu.com/releases/22.04/release/ubuntu-22.04-server-cloudimg-amd64.ova
+
+
 wget https://cloud-images.ubuntu.com/releases/24.04/release/ubuntu-24.04-server-cloudimg-amd64.ova
 
 [debian]
