@@ -19,9 +19,6 @@ wget https://cloud-images.ubuntu.com/releases/24.04/release/ubuntu-24.04-server-
 wget https://mirror.accum.se/images/cloud/trixie/latest/debian-13-nocloud-amd64.qcow2
 
 
-/*wget https://mirror.accum.se/images/cloud/trixie/latest/debian-13-generic-amd64.qcow2*/
-
-
 
 for ubuntu and debian
 running
