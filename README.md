@@ -7,6 +7,9 @@ apt install qemu-utils libguestfs-tools whois -y
 wget https://cloud-images.ubuntu.com/releases/22.04/release/ubuntu-20.10-server-cloudimg-amd64.ova
 
 /// 22,24...
+
+
+
 wget https://cloud-images.ubuntu.com/releases/22.04/release/ubuntu-22.04-server-cloudimg-amd64.ova
 wget https://cloud-images.ubuntu.com/releases/24.04/release/ubuntu-24.04-server-cloudimg-amd64.ova
 
@@ -15,6 +18,12 @@ wget https://mirror.accum.se/images/cloud/trixie/latest/debian-13-generic-amd64.
 
 for ubuntu and debian
 running
+[password can be set when running or in the script]
+
+
+Usage: ./debian.sh input.qcow2 [root_password]
+Usage: ./ubuntu.sh input.ova [root_password]
+
 bash ubuntu.sh ubuntu-20.10-server-cloudimg-amd64.ova 
 bash debian.sh debian-13-nocloud-amd64.qcow2
 
