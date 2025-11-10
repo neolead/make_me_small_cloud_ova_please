@@ -38,6 +38,11 @@ Usage: ./ubuntu.sh input.ova [root_password]
 bash ubuntu.sh ubuntu-20.10-server-cloudimg-amd64.ova 
 bash debian.sh debian-13-nocloud-amd64.qcow2
 
+Timing about 3 minutes
+
+<img width="1633" height="578" alt="image" src="https://github.com/user-attachments/assets/d170b707-a855-4091-8f7b-627a330ab0c5" />
+
+
 The scripts create users... the password can be specified when starting the script or adjusted in the script... they deploy dhcplient... repackage the images... etc.
 The end result is a ready-made small ova for clean deployment.
 The deployment can be further written within the bash script.
