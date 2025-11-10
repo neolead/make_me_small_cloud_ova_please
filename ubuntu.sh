@@ -3,7 +3,7 @@ set -euo pipefail
 IFS=$'\n\t'
 
 # make_cloud_ova_ssh_once_fixed.sh
-# Usage: ./make_cloud_ova_ssh_once_fixed.sh input.ova [root_password]
+# Usage: ./ubuntu.sh input.ova [root_password]
 # Output: input_modified.ova
 
 INPUT_OVA="${1:-}"
